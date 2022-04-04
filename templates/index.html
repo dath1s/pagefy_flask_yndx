@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<title>Pagefy</title>
+	<link rel="stylesheet" href="../static/styles/styles.css" type="text/css">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,300" type="text/css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<style>
+		img.demo {
+		   filter: brightness(250%);
+		}
+	</style>
+</head>
+
+<body>
+	<main>
+		<div id = "main-div">
+			<div id = "side-widget">
+				<div id = "auth">
+					<div id = "logo"><a href="index.html"><img class = "demo" src="../static/images/logo.png" alt="Pagefy"></a></div>
+				</div>
+				<div id = "weather">
+					<a class="weatherwidget-io" href="https://forecast7.com/ru/50d27127d54/blagoveshchensk/" data-label_1="BLAGOVESHCHENSK" data-icons="Climacons Animated" data-mode="Current" data-days="3" data-theme="original" >BLAGOVESHCHENSK</a>
+					<script>
+					!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+					</script>
+				</div>
+				<div id = "other-widgets">Виджеты</div>
+			</div>
+			<div id = "main-content">
+				<div id = "search">
+					<form action="" method="get">
+						<input type="text" id = "queue" placeholder="Искать здесь...">
+						<button type="submit"></button>
+					</form>
+				</div>
+				<div id = "news-player">
+					<div id = "news-categories">
+						<div class="tab_container">
+							<input id="tab1" type="radio" name="tabs" checked>
+							<label for="tab1"><i class="fa fa-code"></i><span>IT</span></label>
+
+							<input id="tab2" type="radio" name="tabs">
+							<label for="tab2"><i class="fa fa-music"></i><span>Музыка</span></label>
+
+							<input id="tab3" type="radio" name="tabs">
+							<label for="tab3"><i class="fa fa-soccer-ball-o"></i><span>Спорт</span></label>
+
+							<input id="tab4" type="radio" name="tabs">
+							<label for="tab4"><i class="fa fa-globe"></i><span>Политика</span></label>
+
+							<input id="tab5" type="radio" name="tabs">
+							<label for="tab5"><i class="fa fa-film"></i><span>Кино</span></label>
+
+
+							<input id="tab6" type="radio" name="tabs">
+							<label for="tab6"><i class="fa fa-gamepad"></i><span>Игры</span></label>
+
+							<input id="tab7" type="radio" name="tabs">
+							<label for="tab7"><i class="fa fa-heart"></i><span>Медецина</span></label>
+
+							<section id="content1" class="tab-content">
+								a
+						  	</section>
+
+							<section id="content2" class="tab-content">
+								<p><a href="https://ngs.ru/text/gorod/2022/03/10/70495253/?from=yanews&utm_source=yxnews&utm_medium=desktop"><b>
+									Ряд исполнителей отменили концерты в Новосибирске</b></a>
+									<br>Отмены По данным сервиса Kassir.ru, отменены концерты группы «Тараканы!» и украинского исполнителя MILKOVSKYI, запланированные на 25 февраля и 13 апреля.
+								</p>
+								<p><a href="https://yandex.ru/news/story/VFilarmonii_dzhazovoj_muzyki_sostoitsya_koncert_Salyut_Benni_Gudmenu--56b15a83223f40e538549f71d213855c?lang=ru&rubric=music&fan=1&t=1646889398&persistent_id=183775248&story=3c97ec88-0dce-56e0-ae4f-415c4c919a8f"><b>
+									В Филармонии джазовой музыки состоится концерт «Салют Бенни Гудмену»</b></a>
+									<br>30 марта в Филармонии джазовой музыки состоится концерт «Салют Бенни Гудмену».
+								</p>
+								<p><a href="https://muz-tv.ru/news/eminem-ustanovil-rekord-po-kolichestvu-zolotyh-i-platinovyh-singlov/?utm_source=yxnews&utm_medium=desktop"><b>
+									Eminem стал лидером по количеству золотых и платиновых синглов</b></a>
+									<br>Хип-хоп-исполнитель оказался самым «богатым» по числу золотых и платиновых синглов.
+								</p>
+								<p><a href="https://nation-news.ru/6378-Dubtsova_Semenovich_i_Gazmanov_vistupili_dlya_bezhentsev_iz_Donbassa?utm_source=yxnews&utm_medium=desktop"><b>
+									Анна Семенович и Родион Газманов выступили на концерте в поддержку ДНР и ЛНР</b></a>
+									<br>Организаторам шоу удалось собрать на сцене не только звезд российской эстрады Родиона Газманова, Анну Семенович и Ирину Дубцову, но и местные вокально-инструментальные ансамбли и детские творческие коллективы.
+								</p>
+								<p><a href="https://csn-tv.ru/posts/id72053-pevica-mari-kraimbreri-rasskazala-o-konflikte-s-lobodoi?utm_source=yxnews&utm_medium=desktop"><b>
+									Певица Краймбрери рассказала о конфликте с украинской коллегой Лободой</b></a>
+									<br>Артистке больше нравится, когда обсуждают ее творчество. Однако однажды звезду втянули в конфликт с украинской коллегой Светланой Лободой.
+								</p>
+						  	</section>
+
+							<section id="content3" class="tab-content">
+								{{sport}}
+								<p><a href="https://matchtv.ru/biathlon/matchtvnews_NI1549249_Vse_idet_k_tomu_chto_rossijan_i_belorusov_iskluchat_iz_Mezhdunarodnogo_sojuza_biatlonistov__Vasiljev?utm_source=yxsport&utm_medium=desktop"><b>
+									Васильев уверен, что Россию исключат из IBU</b></a>
+									<br>Двукратный олимпийский чемпион Дмитрий Васильев поделился мнением о возможном исключении России из Международного союза биатлонистов (IBU). IBU уже отстранил российских и белорусских спортсменов от международных стартов под эгидой организации.
+								</p>
+
+						  	</section>
+
+							<section id="content4" class="tab-content">
+								l
+						  	</section>
+
+							<section id="content5" class="tab-content">
+								k
+						  	</section>
+
+						  	<section id="content6" class="tab-content">
+								j
+						  	</section>
+
+						  	<section id="content7" class="tab-content">
+								b
+						  	</section>
+						</div>
+					</div>
+					<div id = "player">
+						<iframe src="https://open.spotify.com/embed/playlist/5aQezMPraTkeRRuG12TpH8" width="380" height="550" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+					</div>
+				</div>
+				<div id = "videos"></div>
+			</div>
+			<div id = "footer">Футер</div>
+		</div>
+	</main>
+</body>
+</html>
